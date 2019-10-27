@@ -10,22 +10,15 @@
 </head>
 <body>
     <h1>Sample Application</h1>
-     <!--ng-app is used to initialize an app in angularjs
-    ng-init is used to initilize data-->
-    <div ng-app="" ng-init="countries=[{locale:'en-US',name:'United States'},
-    {locale:'eng-GB',name:'United Kingdom'},{locale:'en-FR',name:'France'}]">
-        <p>Enter First Name <input type="text" ng-model="firstName"></p>
-        <p>Enter Last Name <input type="text" ng-model="lastName"></p>
+     <div ng-app="" ng-init="marks=[60,70,80,90,100]">
+        <p>Enter First name <input type="text" ng-model="firstName"></p>
+        <p>Enter Last name <input type="text" ng-model="lastName"></p>
         <p>Hello {{firstName}} {{lastName}}</p>
-        <p>List of countries with locale:</p>
-        <ol>
-            <li ng-repeat="country in countries">
-                <!--{{'Country: '+country.name+', Locale: '+country.locale}}-->
-                Country: {{country.name}}<br>
-                Locale:: {{country.locale}}
-            </li>
-        </ol>
-    </div>
+        <p>Book unit price <input type="text" ng-model="unitPrice"></p>
+        <p>Book Quantity<input type="text" ng-model="quantity"></p>
+        <p>Total: {{unitPrice*quantity}} BDT</p>
+        <p>Marks: {{firstName==="Tonmoy"?marks[3]:marks[2]}}</p>
+     </div>
 
 
     
