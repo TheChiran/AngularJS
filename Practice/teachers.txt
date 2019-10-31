@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Ashraf",
+        "dept":"SWE",
+        "phone":"+03241546"
+    },
+    {
+        "name":"Rashed Karim",
+        "dept":"SWE",
+        "phone":"+03241546"
+    },
+    {
+        "name":"Touhid Bhuiyan",
+        "dept":"SWE",
+        "phone":"+03241546"
+    },
+    {
+        "name":"Mustafuzur Rahman",
+        "dept":"SWE",
+        "phone":"+03241546"
+    }
+]
